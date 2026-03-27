@@ -1,0 +1,5 @@
+
+> oficina-lpr-frontend@0.1.0 build
+> next build
+
+sh: next: command not found
