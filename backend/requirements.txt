@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+easyocr
+opencv-python-headless
+google-cloud-firestore
+python-multipart
+numpy
