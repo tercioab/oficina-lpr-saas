@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+.next/
+out/
+build/
+dist/
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+.env.local
+.env.*.local
+
+# Vercel
+.vercel
+
+# IDEs
+.vscode/
+.idea/
+.idx/
+!.idx/dev.nix
+
+# OS
+.DS_Store
+Thumbs.db

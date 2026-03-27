@@ -89,7 +89,7 @@ export default function Dashboard() {
       <nav className="fixed bottom-6 left-4 right-4 h-16 rounded-3xl bg-zinc-900/80 backdrop-blur-xl border border-zinc-800 flex items-center justify-around shadow-2xl">
         <button className="p-3 text-blue-500"><Search className="w-6 h-6" /></button>
         <button className="w-20 h-20 -mt-10 rounded-full bg-blue-600 border-8 border-zinc-950 flex items-center justify-center shadow-xl shadow-blue-900/40 transform active:scale-90 transition-transform">
-          <Camera className="w-8 h-8 text-white" />
+          <CameraIcon className="w-8 h-8 text-white" />
         </button>
         <button className="p-3 text-zinc-500"><LogOut className="w-6 h-6" /></button>
       </nav>
@@ -97,7 +97,7 @@ export default function Dashboard() {
   );
 }
 
-function Camera(props: any) {
+function CameraIcon(props: any) {
   return (
     <svg
       {...props}
